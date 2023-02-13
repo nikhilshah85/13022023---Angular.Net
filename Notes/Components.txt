@@ -1,0 +1,10 @@
+Component - is like a plug in
+	1. Component
+		.ts (typescript file)
+			Class - properties, function, constructor, variables etc.....
+		.html 
+		.css 
+		.spec.ts (unit testing)
+
+	2. Every Component is registered in app.module.ts file
+	3. App is the default component u get when u create a new angular app

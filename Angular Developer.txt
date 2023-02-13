@@ -1,0 +1,23 @@
+
+Component Development
+Services
+Pipes
+Structure of Angular APP
+SPA / Routing
+Angular Material
+----------------------------------------
+Course-prequisite
+
+1. HTML, CSS and OOPS
+2. Software Setup
+	VS Code
+	NodeJS
+	NPM with Node, open proxy to download packages
+
+---Option 1 - use your own system
+---Option 2 - use cloud lab
+
+----------------------------------------
+Put all the info in  single block and share with me
+
+ 	

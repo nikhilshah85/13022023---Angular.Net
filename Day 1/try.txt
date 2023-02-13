@@ -1,0 +1,9 @@
+1. Close the current file - Current APP
+2. close VS Code
+3. create a new Angular Application - shoppingAPP
+4. Display the data on page when application is run
+	AppName : ShoppingAPP
+	Total Products : 20
+	Trending Product : Iphone
+	Total Registered User : 40
+	App Is In live ? False

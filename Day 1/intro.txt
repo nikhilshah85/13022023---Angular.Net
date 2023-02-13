@@ -1,0 +1,93 @@
+		Web Revolution
+
+1. When did you use internet first time ? 2007
+2. Why did you use internet for in those days ? Email,Projects,Games,Surfing 
+3. Where did you use internet ? Home / Office / Cyber Cafe
+4. Devise - Desktop - laptop
+5. Sourse of Internet - Broadban - Lan
+6. Hardware - storage - processor - memory - cache
+	
+	thus web developers developed web contents accordingly
+--------------------------------
+
+1. Why did you use internet for in this days ? Everything
+2. Where did you use internet ? Everywhere
+3. Devise - Mobiles / tablets / watches etc...
+4. Sourse of Internet - Mobile Data
+5. Hardware
+
+-----------------------------------------------------------------------------
+		Thus web developer today has to develop the contents accordingly
+
+	Change is - it use to be a server centeric application
+		     is now a client centeric app
+
+		ASP.net, Java, PHP were not capable to create the modern apps
+
+		Thus to meet this challange, 
+		Google came up with Angular
+
+-----------------------------
+		NodeJS and VS Code 
+
+		Angular CLI - Command Line Interface 
+			ng new nameofapp
+			ng build
+			ng serve
+			ng test
+			ng generate component cmpname
+ 			ng generate service srcname
+ 			ng generate pipe pipename
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

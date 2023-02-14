@@ -1,0 +1,18 @@
+
+
+
+<h1> {{ componentName }}  </h1>
+<p class="totalP"> Total Products : {{ totalProducts }} </p>
+
+<div *ngFor="let p of productList">
+    <h3> {{ p.pName }} - #({{ p.pId  }}) </h3>
+    <h3> {{ p.pCategory }} </h3>
+    <h3> {{ p.pPrice }} </h3>
+    <h2> {{ p.pIsInStock }} </h2>
+    <button class="btnCart"> Add To Cart</button>
+    <button class="btnWish"> Wish List</button>
+    <hr/>
+</div>
+
+
+

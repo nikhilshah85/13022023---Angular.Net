@@ -1,0 +1,60 @@
+
+
+
+<h3> Trainer : {{  trainerName }}</h3>
+<h3> Designation : {{ trainerDesignation }}</h3>
+
+<!-- <ul>
+  <li *ngFor="let t of trainerTechnologies"> {{ t }} </li>
+</ul>
+
+<form>
+<select>
+  <option *ngFor="let tech of trainerTechnologies"> {{ tech}} </option>
+</select>
+
+<span *ngFor="let te of trainerTechnologies">
+  <input type="checkbox" value="te"/> {{te}}
+</span>
+
+</form>
+
+
+
+<div style="background-color: aqua;color:purple">
+  <h2> {{ trainerDetails.empName }} ( {{ trainerDetails.empNo }} ) </h2>
+  <h2> {{ trainerDetails.empCity }} </h2>
+  <h2> {{ trainerDetails.empEmail }}</h2> 
+  <h2> {{ trainerDetails.empEducation.university }}</h2> 
+  <h2> {{ trainerDetails.empEducation.degree }} </h2>
+  <h2> {{ trainerDetails.empEmergencyContact.contact1.name }} - {{ trainerDetails.empEmergencyContact.contact1.relation}} - {{ trainerDetails.empEmergencyContact.contact1.contactNo}} </h2>
+
+
+</div> -->
+
+
+<table border="1">
+  <tr *ngFor="let c of clientList">
+    <td> {{ c.clientId }} </td>
+    <td> {{ c.clientName }} </td>
+    <td> {{ c.clientLocation }} </td>
+    <td> {{ c.clientContact }} </td>
+    <td> {{ c.clientRevenue }} </td>
+  </tr>
+</table>
+
+<hr/>
+
+<app-products></app-products>
+
+
+
+
+
+
+
+
+
+
+
+

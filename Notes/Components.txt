@@ -8,3 +8,14 @@ Component - is like a plug in
 
 	2. Every Component is registered in app.module.ts file
 	3. App is the default component u get when u create a new angular app
+
+----------------------------------------------------------------
+
+Componentsv - data 
+	1. Data in TS
+		plain proerties
+			Pimitive data types - string, number, bool etc..
+		plain Array
+			Pimitive data types - string, number, bool etc..
+		JSON Object 
+		JSON Array / JSON Object array

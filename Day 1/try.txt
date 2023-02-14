@@ -1,3 +1,5 @@
+
+
 1. Close the current file - Current APP
 2. close VS Code
 3. create a new Angular Application - shoppingAPP
@@ -7,3 +9,7 @@
 	Trending Product : Iphone
 	Total Registered User : 40
 	App Is In live ? False
+
+----------------------------------------------------------------------------------------
+			Day 2 : Start with Angular Development
+				start developing Components 

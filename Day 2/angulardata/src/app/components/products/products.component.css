@@ -1,0 +1,18 @@
+.totalP{
+    text-align: right;
+}
+h1{
+    text-align: center;
+}
+div{
+    background-color: chartreuse;
+    color: brown;
+}
+.btnCart{
+    background-color: blue;
+    color: white;
+}
+.btnWish{
+    background-color: yellow;
+    color: purple;
+}

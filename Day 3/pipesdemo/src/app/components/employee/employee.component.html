@@ -1,0 +1,15 @@
+
+
+<h1> Employee Details</h1>
+
+<div>
+
+    <h3> {{ firstName + ' ' + lastName  | greeting | uppercase}} </h3>
+    <h3> First Name : {{ firstName | uppercase}}</h3>
+    <h3> Last Name : {{ lastName | lowercase}} </h3>
+    <h3> Date of Birth : {{  dob | date : '' }}</h3>
+    <h3> Monthly Salary : {{ salary | currency : 'HKD' : true}} </h3>
+    <h3> Annual Package : {{ salary * 12  }}</h3>
+    <h3> Contact : {{ contact | json}}</h3> 
+    <h3> Score : {{ masterDegreeScore | percent }}</h3> 
+</div>

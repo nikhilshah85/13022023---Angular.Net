@@ -11,11 +11,11 @@ Component - is like a plug in
 
 ----------------------------------------------------------------
 
-Componentsv - data 
+Components - data 
 	1. Data in TS
-		plain proerties
+		a. plain proerties
 			Pimitive data types - string, number, bool etc..
-		plain Array
+		b. plain Array
 			Pimitive data types - string, number, bool etc..
-		JSON Object 
-		JSON Array / JSON Object array
+		c. JSON Object 
+		d. JSON Array / JSON Object array

@@ -1,0 +1,19 @@
+Create a new component EmployeeDetails
+
+create a new employeeList property which will JSON array object
+
+	employeeList = [
+		{empNo:101, empName:'nikhil',empLastName:'shah',empDesignation:'consultatnt',empSal:4000, doj : new Date(...)}
+	]
+
+
+	add 5 more objects to the same
+
+
+	display the data in a table with below format
+
+	employee name to be in Propercase : 1st character capital
+	employee lastname to be in Uppercase 
+	employeeDesignation to be in uppercase
+	employee salary to be with rupee symbol
+	employee doj to be as Month yy (feb 2015)

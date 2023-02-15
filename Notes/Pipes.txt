@@ -1,0 +1,21 @@
+Pipes in angular
+
+1. This are used for formating data on HTML(UI)
+2. (|) this is a pipe
+
+3. there are 2 types of pipes
+a. Inbuilt pipes
+b. custom pipes
+
+4. they are used with components in .html file
+
+5. Inbuild pipes
+	uppercase, lowercase, propercase, json, async, curreny, percentile etc..
+
+----------------
+Custom pipe
+1. this is pipename.pipe.ts file
+2. it is a class and it implements interface PipeTransform
+3. Interface will make you impllement a method transform, which take parameters (value, parameters)
+
+	ng g p pipename

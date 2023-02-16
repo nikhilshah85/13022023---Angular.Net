@@ -1,0 +1,14 @@
+
+
+
+<table>
+    <tr *ngFor="let e of empList">
+        <td> {{ e.empNo }} </td>
+        <td> {{ e.empName | gendergreet :e.empGender }} </td>
+        <td> {{ e.empDesignation }} </td>
+        <td> {{ e.empSalary }} </td>
+        <td> {{ e.empIsPermenant }} </td>
+        <td> {{ e.empDesignation | rateings : e.empIsPermenant }}</td>
+
+    </tr>
+</table>

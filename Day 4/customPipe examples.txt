@@ -1,0 +1,26 @@
+
+
+
+
+
+
+Display starts '*' for everyemp based on condition
+
+HR      - ***
+Sales   - ****
+Accounts - *****
+Trainer - ^*****
+
+	if emp is not permenant display starts in (***) - (****)
+----------------------------------------------------------------------------------------------------------------------------
+				we wish to display - 
+				
+					calculated tax values - Electrinonics - 12%
+								Cold-Drink - 5%
+								Shoes - 18%
+
+					Discount - 15% on all the products
+
+			Try (Share the screen once done - random pickup)
+					Offer Price - (actual - discount)
+					Buy Price (actual + tax - discount)

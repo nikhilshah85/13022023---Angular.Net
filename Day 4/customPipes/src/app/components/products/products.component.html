@@ -1,0 +1,29 @@
+<p>products works!</p>
+
+
+<table border="1">
+        <tr>
+            <td> Product Id </td>
+            <td> Product Name </td>
+            <td> Product Category </td>
+            <td> Product Price </td>
+            <td> Product Discount </td>
+            <td> Offer Price </td>
+            <td> Product Tax </td>       
+            <td> Buy Price </td>     
+        </tr>
+
+    <tr *ngFor="let p of pList">
+        <td> {{ p.pId }} </td> 
+        <td> {{ p.pName }} </td> 
+        <td> {{ p.pCategory }} </td> 
+        <td> {{ p.pPrice }} </td> 
+        <td> {{ p.pPrice | discount }}</td> 
+        <td> {{ p.pPrice | offerprice }}</td>
+        <td> {{ p.pPrice | tax : p.pCategory }}</td>
+        <td> {{ p.pPrice | buyprice : p.pCategory }} </td>
+
+
+
+    </tr>
+</table>

@@ -1,0 +1,14 @@
+.container{
+    display: grid;
+    background-color: orangered;
+    grid-template-columns: auto auto auto auto;
+}
+
+.container div{
+    background-color: violet;
+    color: purple;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 30px
+}
+

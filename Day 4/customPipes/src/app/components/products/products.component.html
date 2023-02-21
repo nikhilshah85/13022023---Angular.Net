@@ -1,6 +1,29 @@
 <p>products works!</p>
 
 
+<button (click)="generateNumbers()">Generate</button>
+
+<!-- <h1>{{generateNumbers()}}</h1> -->
+
+<!-- <ul>
+    <li *ngFor="let a of myNumbers">{{a}}</li>
+</ul> -->
+
+<div class="grid-container">
+    <div *ngFor="let a of myNumbers">{{a}}</div>
+</div>
+
+
+<hr/>
+
+<table>
+    <tr *ngFor="let r1 of rowOne">{{ r1 }}</tr>
+</table>
+
+
+
+
+
 <table border="1">
         <tr>
             <td> Product Id </td>

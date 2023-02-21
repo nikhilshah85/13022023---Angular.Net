@@ -1,0 +1,63 @@
+
+
+
+
+
+
+						Task Day :
+
+			Create a new Angular Application (without routing / SPA) - stockManagement
+			Create a new Component - stockDetails
+				Add a new JSON Object Array - stockDetails with the below properties
+					stockId
+					stockName
+					stockIndustry
+					stockPurchasePrice
+					stockCurrentPrice
+					stockQty
+
+{stockId:501, stockName: 'Tata Motors', stockIndustry:'Automobiles',stockPurchasePrice:150,stockCurrentPrice:200,stockQty:200}
+
+--------------------
+		Have minimum 10 stocks in array 
+---------------------------------------------------------------------------------------------------------------------------------
+
+		Display the stock in a table along with table headings
+		We need to display the data in table as below
+
+stockId stockName stockIndustry stockPurchasePrice stockCurrentPrice stockQty InvestmentValue CurrentValue Status Recommendation
+
+
+
+		InvestmentValue =  stockPurchasePrice *stockQty
+		CurrentValue = stockCurrentPrice  * stockQty 
+		Status = Profit or loss  - Investment < current = profit else loss
+		Recommendation = BuyMore, Hold, Sell 
+				buyMore when loss > 20% 
+				Hold when profit or loss is between 0 and 15%
+				Sell when profit is more than 20% or loss is more than 40%
+
+-------------------------------------------------------------------------------------------------------------------------
+				Once completed - test it - delete node_module folder
+				send it to nikhil.shah@cognizant.com
+				Also you can upload to Git hub and send the link
+				
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

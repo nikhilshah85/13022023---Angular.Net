@@ -1,0 +1,6 @@
+Try this
+Add a new Service which will have counter variables
+
+	all this components to have a button and call the increment and decrement functions from service
+
+	display the counter variable on top right of the screen

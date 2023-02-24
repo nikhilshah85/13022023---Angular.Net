@@ -1,0 +1,10 @@
+Services :
+use this for common operations accross the application
+	Share data between 2 or more components
+	Share functions between 2 or more components / login shareing
+
+	2 types of services
+		a. Custom Service 
+		b. inBuilt service 
+			HttpClient (Make WebAPI call - get data from external url)
+			Routing service (this is used to create SPA)

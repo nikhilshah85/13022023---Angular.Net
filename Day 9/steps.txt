@@ -1,0 +1,69 @@
+		Create a new .Net WebAPI Application for database communication (SQL Server)
+			use Entity Framework Core (ORM Design pattern)
+
+
+1. Create a new Database in SQL Server - shoppingAPPDB
+2. Add a table Products with sample data
+3. Create new .net webapi application useing Visual Studio (2019/2022)
+4. In the new application, we need to add nuget packages to communicate with database
+	EF Core Nugets - there are 4 packages we need to add
+	
+		Microsoft.EntityFrameworkCore.Tools
+		Microsoft.EntityFrameworkCore.Design
+		Microsoft.EntityFrameworkCore.SqlServer
+		Microsoft.EntityFrameworkCore
+
+4. Build the application, we now need to fire EF core command to get connected to database and create the POCO classes
+	Tools -> Nuget package manager -. 
+
+
+(Windows Authentication)
+Scaffold-DbContext "server=(localdb)\MSSQLLocalDB;database=shoppingAPP;integrated security=true; Trust Server Certificate=true" -Provider Microsoft.EntityFrameworkCore.SqlServer -OutputDir Model\EF
+
+(Server Authentication)
+Scaffold-DbContext "server=(localdb)\MSSQLLocalDB;database=shoppingAPP;userid= ;password=; Trust Server Certificate=true" -Provider Microsoft.EntityFrameworkCore.SqlServer -OutputDir Model\EF
+
+check the Model Folder
+
+5. Right click controller folder, add new controller, api - api controller with EF
+	choose the table name as model and database name as context file
+
+6. Open the newly created controller file, instanstiate new object of dbcontext class - line 16
+	comment the constructor
+
+
+	private readonly ShoppingAppContext _context = new ShoppingAppContext();
+
+        //public ProductsController(ShoppingAppContext context)
+        //{
+        //    _context = context;
+        //}
+
+	this is because it use DI by default, but it will configure only half, rest half we have to do it 
+
+7. Build the appliction, run the application ,test the functionality
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

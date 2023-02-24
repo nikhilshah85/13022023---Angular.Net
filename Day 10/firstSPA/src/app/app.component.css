@@ -1,0 +1,10 @@
+nav ul li{
+    display: inline-block;
+    background-color: magenta;
+    color: blue;
+    padding: 12px;
+}
+nav ul li:hover{
+    background-color: lightcoral;
+
+}

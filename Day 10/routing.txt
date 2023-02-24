@@ -1,0 +1,12 @@
+			SPA - Single Paged Application
+	where, we send a single HTML page to client (Index.html - default page name)
+	This page has app component loaded, and app components knows about other components
+	Thus index.html is made up of multiple components further and we are only sending index.html 
+
+	A service runs in browser memory which will load the component as per uses request
+
+	Routing is configured in 2 steps
+	1. in app-routing-module.ts add routes(components) and path(url)
+	2. in app.component.html - use <a Link for links and router-outlet
+
+		

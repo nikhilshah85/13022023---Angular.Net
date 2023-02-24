@@ -1,0 +1,14 @@
+
+Create 2 more components
+Comments 
+Album 
+
+use the ApicallService and display the data on this on click of button
+
+-------------------------------------------------------------------------------------------------
+
+		Practice : Make a call to users API
+			https://jsonplaceholder.typicode.com/users
+			display below details
+
+			Name username email city lat lon companyname catchphase

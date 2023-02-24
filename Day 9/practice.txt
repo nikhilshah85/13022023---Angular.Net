@@ -1,0 +1,27 @@
+
+
+
+
+			We will Consume the api tomorrow in our SPA application where we will learn routing
+
+
+
+
+			Today : Practice
+
+			Create a new database employeeDB
+			Add below tables to the same
+			deptInfo
+				deptNo (PK), deptName, deptLocation, deptHead
+			empInfo
+				empNo(PK), empName, empDesigantion, empSalary, empIsPermenant, empDept(optional fk to dept table)
+			
+			Add sameple data to the table
+
+			creaet a new .net webapi appliction to perform CRUD Operations with this data, both the tables
+				
+
+			We will Consume the api tomorrow in our SPA application where we will learn routing
+
+		
+				

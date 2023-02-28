@@ -1,0 +1,20 @@
+
+
+
+
+
+		Project: 
+
+
+		Create a new SPA Application - myProfile
+
+			Home - mentions something aboout the app here
+			About - About You - in detail
+			Contact - all the contact info - Phone, Email, Linkedin, FB, Insta, twitter etc.... (use dummy for display)
+			Education - 
+			Profile - Work profile - expertise - past experience - goals
+			Hobbies - likes 
+			Memories - this is a photo gallary - display 20 pics here - dummy 
+			
+
+		

@@ -1,0 +1,15 @@
+.Net Angular 
+--- .Net for webapi development (to talk to data source) - this is based on REST standards
+		we had got an URL - to be shared with client app - Angular 
+
+	but, then if any1 has the url can create their application and get data, 
+	and thats why WebAPI comes with CORS - Cross Origin Resource Shareing
+
+
+
+1. Create a new webapi app
+2. create an new angular app - try to consume the api here useing HttpClient
+3. We will see an error - CORS
+4. We see how to fix it
+----------------------------------------------------------------------------
+

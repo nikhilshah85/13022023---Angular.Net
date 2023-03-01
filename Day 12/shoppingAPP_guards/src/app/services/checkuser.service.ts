@@ -10,6 +10,11 @@ export class CheckuserService implements CanActivate {
   isUserLoggedIn = false;
   constructor() { }
 
+  logout()
+  {
+    this.isUserLoggedIn = false;
+  }
+
   checkUserCredentials(userName:string, pwd:string)
   {
     if(userName == 'Nikhil' && pwd == 'Pass@1234')

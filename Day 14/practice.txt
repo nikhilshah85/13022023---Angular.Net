@@ -1,0 +1,11 @@
+in the products componetsn
+	in .ts file - add a products array of JSOn object - add 5 products
+		pId, pName, pCategory, pPrice, pIsInStock
+
+	we need to dispalay the same data on .html 
+	use Material table to display the data
+
+	use Basic - table 
+	also try - cards 
+---------------------------------
+	Tomorrow : Angular forms and intro to unit testing in angular

@@ -1,0 +1,13 @@
+
+
+<h1> List of Products </h1>
+
+
+<table>
+    <tr *ngFor="let p of _prod.productList">
+        <td> {{ p.pId }} </td>
+        <td> {{ p.pName }} </td>
+        <td> {{ p.pCategory }} </td>
+        <td> {{ p.pPrice }} </td>
+    </tr>
+</table>

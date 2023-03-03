@@ -1,0 +1,51 @@
+
+
+
+
+
+<!-- 
+<button mat-raised-button color="primary"> Hello 1 </button>
+<button mat-raised-button color="warn"> Hello 2 </button>
+<button mat-raised-button color="danger"> Hello 3 </button>
+<button mat-raised-button color="accent"> Hello 4 </button>
+
+
+<section>
+  <div class="example-label">FAB</div>
+  <div class="example-button-row">
+    <div class="example-flex-container">
+      <div class="example-button-container">
+        <button mat-fab color="primary" aria-label="Example icon button with a delete icon">
+          <mat-icon>delete</mat-icon>
+        </button>
+      </div>
+      <div class="example-button-container">
+        <button mat-fab color="accent" aria-label="Example icon button with a bookmark icon">
+          <mat-icon>bookmark</mat-icon>
+        </button>
+      </div>
+      <div class="example-button-container">
+        <button mat-fab color="warn" aria-label="Example icon button with a home icon">
+          <mat-icon>home</mat-icon>
+        </button>
+      </div>
+      <div class="example-button-container">
+        <button mat-fab disabled aria-label="Example icon button with a heart icon">
+          <mat-icon>favorite</mat-icon>
+        </button>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+<mat-tab-group animationDuration="0ms" fitInkBarToContent>
+  <a routerLink="home"> <mat-tab label="Home"></mat-tab></a>
+  <a routerLink="about"> <mat-tab label="About"></mat-tab></a> 
+  <mat-tab label="Contact"> <a routerLink="contact"></a> </mat-tab>
+  <mat-tab label="Careers"> <a routerLink="careers"></a> </mat-tab>
+  <mat-tab label="news"> <a routerLink="news"></a> </mat-tab>
+  <mat-tab label="products"> <a routerLink="products"></a> </mat-tab>
+  <mat-tab label="login"> <a routerLink="login"></a> </mat-tab>
+</mat-tab-group>
+
+<router-outlet></router-outlet>

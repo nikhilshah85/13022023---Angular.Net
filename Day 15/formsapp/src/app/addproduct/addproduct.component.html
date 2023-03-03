@@ -1,0 +1,18 @@
+
+
+
+<h1> Add New Product </h1>
+
+<form #newProduct="ngForm" (ngSubmit)="_prod.addProduct(newProduct.value)">
+    <input type="number" placeholder="Enter New Product Id" name="pId" ngModel/> <br/>
+    <input type="text" placeholder="Enter New Product Name" name="pName" ngModel/><br/>
+        <select name="pcategory" name="pCategory" ngModel>
+            <option> Cold-Drinks </option>
+            <option> Electronics </option>
+            <option> Foot-Wear </option>
+            <option> Cloths </option>
+        </select><br/>
+    <input type="number" placeholder="Enter New Product Price" name="pPrice" ngModel/><br/>
+    <button> Add Product</button>
+
+</form>
